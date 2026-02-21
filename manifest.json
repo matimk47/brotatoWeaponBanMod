@@ -1,0 +1,13 @@
+{
+  "name": "WeaponBans",
+  "namespace": "Matimk",
+  "version_number": "1.0.0",
+  "description": "Allows for banning weapons in runs.",
+  "website_url": "https://github.com/matimk47/brotatoWeaponBanMod",
+  "dependencies": [],
+  "extra": {
+        "godot": {
+            "authors": ["Matimk"]
+        }
+    }
+}
