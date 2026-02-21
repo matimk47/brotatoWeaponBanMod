@@ -12,6 +12,7 @@ func _init():
 	# This tells the ModLoader to overwrite the base game scripts with our custom ones!
 	ModLoaderMod.install_script_extension(dir + "extensions/shop_item.gd")
 	ModLoaderMod.install_script_extension(dir + "extensions/run_data.gd")
+	ModLoaderMod.install_script_extension(dir + "extensions/item_service.gd")
 
 func _ready():
 	ModLoaderLog.info("Mod Ready!", LOG_NAME)
